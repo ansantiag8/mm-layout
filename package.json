@@ -1,0 +1,33 @@
+{
+  "name": "mm-layout",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./src/mm-layout.js",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.3",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-merge": "^4.1.2"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server --config webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiag8/mm-layout.git"
+  },
+  "author": "Santiago Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiag8/mm-layout/issues"
+  },
+  "homepage": "https://github.com/santiag8/mm-layout#readme"
+}
