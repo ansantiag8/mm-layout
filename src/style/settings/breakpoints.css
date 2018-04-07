@@ -1,21 +1,25 @@
 :root {
-  --breakpoint-landscape-xsmall: 480;
-  --breakpoint-landscape-small: 600;
-  --breakpoint-landscape-small: 720;
-  --breakpoint-landscape-small: 840;
-  --breakpoint-landscape-small: 960;
-  --breakpoint-landscape-medium: 1024;
-  --breakpoint-landscape-medium: 1280;
-  --breakpoint-landscape-large: 1440;
-  --breakpoint-landscape-large: 1600;
-  --breakpoint-landscape-xlarge: 1920;
+  /* mobiles */
+  /* este en teoria sera elpor defecto */
+  /* --breakpoint-landscape-xsmall: 480; */
+  --breakpoint-landscape-small-1: 600;
+  /* tablets */
+  --breakpoint-landscape-small-2: 720;
+  --breakpoint-landscape-small-3: 840;
+  --breakpoint-landscape-small-4: 960;
+  --breakpoint-landscape-medium-1: 1024;
+  /* desktop */
+  --breakpoint-landscape-medium-2: 1280;
+  --breakpoint-landscape-large-1: 1440;
+  --breakpoint-landscape-large-2: 1600;
+  /* --breakpoint-landscape-xlarge: 1920; */
 
-  --breakpoint-portrait-xsmall: 360;
-  --breakpoint-portrait-xsmall: 400;
-  --breakpoint-portrait-xsmall: 480;
-  --breakpoint-portrait-small: 600;
-  --breakpoint-portrait-small: 720;
-  --breakpoint-portrait-small: 840;
+  /* --breakpoint-portrait-xsmall-1: 360; */
+  /* --breakpoint-portrait-xsmall-2: 400; */
+  /* --breakpoint-portrait-xsmall-3: 480; */
+  /* --breakpoint-portrait-small-1: 600; */
+  /* --breakpoint-portrait-small-2: 720; */
+  /* --breakpoint-portrait-small-3: 840; */
 
   /* margins
   8px
