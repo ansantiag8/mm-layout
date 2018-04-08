@@ -1,17 +1,17 @@
 :root {
   /* mobiles */
-  /* este en teoria sera elpor defecto */
+  /* este en teoria sera por defecto */
   /* --breakpoint-landscape-xsmall: 480; */
-  --breakpoint-landscape-small-1: 600px;
+  @custom-media --breakpoint-landscape-small-1 (max-width: 600px);
   /* tablets */
-  --breakpoint-landscape-small-2: 720px;
-  --breakpoint-landscape-small-3: 840px;
-  --breakpoint-landscape-small-4: 960px;
-  --breakpoint-landscape-medium-1: 1024px;
+  @custom-media --breakpoint-landscape-small-2 (max-width: 720px);
+  @custom-media --breakpoint-landscape-small-3 (max-width: 840px);
+  @custom-media --breakpoint-landscape-small-4 (max-width: 960px);
+  @custom-media --breakpoint-landscape-medium-1 (max-width: 1024px);
   /* desktop */
-  --breakpoint-landscape-medium-2: 1280px;
-  --breakpoint-landscape-large-1: 1440px;
-  --breakpoint-landscape-large-2: 1600px;
+  @custom-media --breakpoint-landscape-medium-2 (max-width: 1280px);
+  @custom-media --breakpoint-landscape-large-1 (max-width: 1440px);
+  @custom-media --breakpoint-landscape-large-2 (max-width: 1600px);
   /* --breakpoint-landscape-xlarge: 1920; */
 
   /* --breakpoint-portrait-xsmall-1: 360; */
