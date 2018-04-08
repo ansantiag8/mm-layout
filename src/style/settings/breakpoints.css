@@ -2,16 +2,16 @@
   /* mobiles */
   /* este en teoria sera elpor defecto */
   /* --breakpoint-landscape-xsmall: 480; */
-  --breakpoint-landscape-small-1: 600;
+  --breakpoint-landscape-small-1: 600px;
   /* tablets */
-  --breakpoint-landscape-small-2: 720;
-  --breakpoint-landscape-small-3: 840;
-  --breakpoint-landscape-small-4: 960;
-  --breakpoint-landscape-medium-1: 1024;
+  --breakpoint-landscape-small-2: 720px;
+  --breakpoint-landscape-small-3: 840px;
+  --breakpoint-landscape-small-4: 960px;
+  --breakpoint-landscape-medium-1: 1024px;
   /* desktop */
-  --breakpoint-landscape-medium-2: 1280;
-  --breakpoint-landscape-large-1: 1440;
-  --breakpoint-landscape-large-2: 1600;
+  --breakpoint-landscape-medium-2: 1280px;
+  --breakpoint-landscape-large-1: 1440px;
+  --breakpoint-landscape-large-2: 1600px;
   /* --breakpoint-landscape-xlarge: 1920; */
 
   /* --breakpoint-portrait-xsmall-1: 360; */
