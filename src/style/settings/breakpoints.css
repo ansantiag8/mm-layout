@@ -2,16 +2,16 @@
   /* mobiles */
   /* este en teoria sera por defecto */
   /* --breakpoint-landscape-xsmall: 480; */
-  @custom-media --breakpoint-landscape-small-1 (max-width: 600px);
+  @custom-media --breakpoint-landscape-small-1 (min-width: 600px);
   /* tablets */
-  @custom-media --breakpoint-landscape-small-2 (max-width: 720px);
-  @custom-media --breakpoint-landscape-small-3 (max-width: 840px);
-  @custom-media --breakpoint-landscape-small-4 (max-width: 960px);
-  @custom-media --breakpoint-landscape-medium-1 (max-width: 1024px);
+  @custom-media --breakpoint-landscape-small-2 (min-width: 720px);
+  @custom-media --breakpoint-landscape-small-3 (min-width: 840px);
+  @custom-media --breakpoint-landscape-small-4 (min-width: 960px);
+  @custom-media --breakpoint-landscape-medium-1 (min-width: 1024px);
   /* desktop */
-  @custom-media --breakpoint-landscape-medium-2 (max-width: 1280px);
-  @custom-media --breakpoint-landscape-large-1 (max-width: 1440px);
-  @custom-media --breakpoint-landscape-large-2 (max-width: 1600px);
+  @custom-media --breakpoint-landscape-medium-2 (min-width: 1280px);
+  @custom-media --breakpoint-landscape-large-1 (min-width: 1440px);
+  @custom-media --breakpoint-landscape-large-2 (min-width: 1600px);
   /* --breakpoint-landscape-xlarge: 1920; */
 
   /* --breakpoint-portrait-xsmall-1: 360; */
