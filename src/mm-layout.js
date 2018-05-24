@@ -1,1 +1,1 @@
-import './style/mm-layout.css';
+import './styles/mm-layout.css';
