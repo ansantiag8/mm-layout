@@ -1,0 +1,66 @@
+.mm-layout {
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+  grid-template-rows: auto;
+  grid-column-gap: 8px;
+
+  & .mm-layout-cell-1 {
+    grid-column-start: auto;
+    grid-column-end: span 1;
+  }
+
+  & .mm-layout-cell-2 {
+    grid-column-start: auto;
+    grid-column-end: span 2;
+  }
+
+  & .mm-layout-cell-3 {
+    grid-column-start: auto;
+    grid-column-end: span 3;
+  }
+
+  & .mm-layout-cell-4 {
+    grid-column-start: auto;
+    grid-column-end: span 4;
+  }
+
+  & .mm-layout-cell-5 {
+    grid-column-start: auto;
+    grid-column-end: span 5;
+  }
+
+  & .mm-layout-cell-6 {
+    grid-column-start: auto;
+    grid-column-end: span 6;
+  }
+
+  & .mm-layout-cell-7 {
+    grid-column-start: auto;
+    grid-column-end: span 7;
+  }
+
+  & .mm-layout-cell-8 {
+    grid-column-start: auto;
+    grid-column-end: span 8;
+  }
+
+  & .mm-layout-cell-9 {
+    grid-column-start: auto;
+    grid-column-end: span 9;
+  }
+
+  & .mm-layout-cell-10 {
+    grid-column-start: auto;
+    grid-column-end: span 10;
+  }
+
+  & .mm-layout-cell-11 {
+    grid-column-start: auto;
+    grid-column-end: span 11;
+  }
+
+  & .mm-layout-cell-12 {
+    grid-column-start: auto;
+    grid-column-end: span 12;
+  }
+}
