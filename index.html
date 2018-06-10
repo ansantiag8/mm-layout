@@ -6,6 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>Layout My Material</title>
+
+    <style>
+      .my-background-img{
+        background-image: url(https://media.playstation.com/is/image/SCEA/Marvels%20Spider-Man%20Desktop%20Wallpaper%203?$native_lg_nt$);
+        background-position: 40% 0;
+      }
+    </style>
   </head>
   <body>
     <div class="mm-layout">
@@ -21,6 +28,13 @@
       <div class="mm-layout-cell-10">item</div>
       <div class="mm-layout-cell-11">item</div>
       <div class="mm-layout-cell-12">item</div>
+      <div class="mm-layout-cell-6 mm-layout-cell-full">
+        <img src="https://media.playstation.com/is/image/SCEA/Marvels%20Spider-Man%20Desktop%20Wallpaper%203?$native_lg_nt$" alt="">
+      </div>
+    </div>
+    <div class="mm-amplitude-full mm-layout-without-gap">
+      <div class="mm-layout-cell-6 mm-layout-cell-full mm-layout-cell-with-background-img my-background-img">
+      </div>
     </div>
 
     <script src="./dist/mm-layout.js"></script>

@@ -1,8 +1,29 @@
 .mm-layout {
+  grid-column-gap: var(--gap);
+}
+
+.mm-layout-cell-with-background-img {
+  background-size: cover;
+}
+
+.mm-amplitude-full {
+  height: 100%;
+  width: 100%;
+}
+
+.mm-layout-without-gap {
+  grid-column-gap: 0;
+}
+
+.mm-layout-with-margin {
+  margin: var(--gap);
+}
+
+.mm-layout,
+.mm-layout-without-gap {
   display: grid;
-  grid-template-columns: repeat(12, auto);
+  grid-template-columns: repeat(12, minmax(0,1fr));
   grid-template-rows: auto;
-  grid-column-gap: 8px;
 
   & .mm-layout-cell-1 {
     grid-column-start: auto;
@@ -62,5 +83,9 @@
   & .mm-layout-cell-12 {
     grid-column-start: auto;
     grid-column-end: span 12;
+  }
+
+  & .mm-layout-cell-full {
+    /* margin: -var(--gap); */
   }
 }

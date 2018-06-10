@@ -18,7 +18,7 @@
   ],
   "main": "./src/mm-layout.js",
   "name": "mm-layout",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack-dev-server --config webpack.dev.js",
